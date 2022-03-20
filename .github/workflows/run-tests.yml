@@ -17,7 +17,7 @@ jobs:
           - "8.1"
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup DB services
         run: |
           cd tests
@@ -73,7 +73,7 @@ jobs:
           - "8.1"
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup PHP ${{ matrix.php-version }}
         uses: shivammathur/setup-php@v2
         with:
