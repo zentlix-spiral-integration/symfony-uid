@@ -18,5 +18,26 @@
                 <referencedClass name="JetBrains\PhpStorm\ArrayShape"/>
             </errorLevel>
         </UndefinedAttributeClass>
+        <InternalProperty>
+            <errorLevel type="suppress">
+                <referencedProperty name="Cycle\ORM\Entity\Behavior\Event\Mapper\Command\OnCreate::$state"/>
+            </errorLevel>
+        </InternalProperty>
+        <InternalClass>
+            <errorLevel type="suppress">
+                <referencedClass name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier"/>
+            </errorLevel>
+        </InternalClass>
+        <InternalMethod>
+            <errorLevel type="suppress">
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::__construct"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::findColumnName"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::addUuidColumn"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::setTypecast"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::findColumnName"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::addUuidColumn"/>
+                <referencedMethod name="Cycle\ORM\Entity\Behavior\Schema\RegistryModifier::setTypecast"/>
+            </errorLevel>
+        </InternalMethod>
     </issueHandlers>
 </psalm>
