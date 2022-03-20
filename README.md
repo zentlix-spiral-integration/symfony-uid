@@ -1,9 +1,7 @@
 # Cycle ORM Symfony UID
 [![Latest Stable Version](https://poser.pugx.org/spiral-cms/symfony-uid/version)](https://packagist.org/packages/spiral-cms/symfony-uid)
 [![Build Status](https://github.com/spiral-cms/symfony-uid/workflows/build/badge.svg)](https://github.com/spiral-cms/symfony-uid/actions)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spiral-cms/symfony-uid/badges/quality-score.png?b=1.x)](https://scrutinizer-ci.com/g/spiral-cms/symfony-uid/?branch=1.x)
 [![Codecov](https://codecov.io/gh/spiral-cms/symfony-uid/graph/badge.svg)](https://codecov.io/gh/spiral-cms/symfony-uid)
-<a href="https://discord.gg/TFeEmCs"><img src="https://img.shields.io/badge/discord-chat-magenta.svg"></a>
 
 The package provides an ability to use `symfony/uid` as a Cycle ORM entity column type.
 
