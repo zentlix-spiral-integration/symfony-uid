@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace SpiralCMS\SymfonyUID;
 
-use Symfony\Component\Uid\Uuid as Listener;
+use SpiralCMS\SymfonyUID\Listener\Uuid1 as Listener;
 use Doctrine\Common\Annotations\Annotation\NamedArgumentConstructor;
 use Doctrine\Common\Annotations\Annotation\Target;
 use JetBrains\PhpStorm\ArrayShape;

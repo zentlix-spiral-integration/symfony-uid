@@ -119,11 +119,11 @@ abstract class BaseTest extends TestCase
         return $this->orm;
     }
 
-    public function compileWithTokenizer(Tokenizer $tokenizer): void
+    public function compileWithTokenizer(Tokenizer $tokenizer): array
     {
         $reader = new AttributeReader();
 
-        (new Compiler())->compile($this->registry = new Registry($this->dbal), [
+        return (new Compiler())->compile($this->registry = new Registry($this->dbal), [
             new Entities($tokenizer->classLocator(), $reader),
             new Generator\ResetTables(),
             new MergeColumns($reader),
